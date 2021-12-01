@@ -1,0 +1,21 @@
+{
+  "name": "comwrap/graph-ql-cart-prices",
+  "version": "1.0.0",
+  "description": "Show the price of the individual item with taxes and without taxes.",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-quote-graph-ql": "100.4.*"
+  },
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Comwrap\\GraphQlCartPrices\\": ""
+    }
+  }
+}
